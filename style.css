@@ -5,12 +5,7 @@
     font-family: Roboto;
 }
 
-button{
-    background-color: rgba(0, 0, 0, 0.692)!important;
-}
-
 .container {
-    
     width: 70%;
     margin: 0 auto;
 }
@@ -95,7 +90,7 @@ button{
     padding: 10px 20px;
     border-radius: 8px;
     background: white;
-    color: black;
+    color: gray;
 }
 
 .card__one{
