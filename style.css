@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.692)!important;
+}
+
+.container {
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cources {
+    margin: 200px 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.card{
+    width: 30%;
+    min-height: 250px;
+    margin: 1.5%;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.card:hover{
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+
+.card__head{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.head__image img{
+    width: 60px;
+    height: 60px;
+    vertical-align: sub;
+    transition: 0.4s;
+}
+
+.head__image, .head__time, .more__btn, .buy__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 10px 0;
+}
+
+.head__time {
+    font-weight: 700;
+}
+
+.head__time img{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+}
+
+.card__body {
+    font-weight: 700;
+    margin: 20px 40px;
+}
+
+.card__footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card__footer__button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.card__footer__button:hover{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: white;
+    color: black;
+}
+
+.card__one{
+    background-image: linear-gradient(to right top, #528ccb, #3e75bc, #2f5dac, #25469a, #212e87);
+}
+
+.card__two{
+    background-image: linear-gradient(to right top, #52b1cb, #009fd8, #008ae4, #0070e7, #384ddc);
+}
+
+.card__three{
+    background-image: linear-gradient(to right top, #ffff00, #ffe800, #ffd200, #ffbc00, #ffa600);
+}
+
+.card__four{
+    background-image: linear-gradient(to right top, #6ba7f6, #368eff, #0071ff, #004dff, #4300ff);
+}
+
+.card__five{
+    background-image: linear-gradient(to right top, #21ff00, #11d60d, #03ae11, #008810, #00640d);
+}
+
+.card__six{
+    background-image: linear-gradient(to right top, #ff4cef, #cf3bc9, #a12ba4, #771a7f, #50095b);
+}
+
+.hover__mask{
+    filter: brightness(30%)
+}
+
+.not__hover__mask {
+    filter: brightness(100%)
+}
+
+
+
+
+
+
+
